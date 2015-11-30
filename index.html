@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+        <script src="js/jquery.js"></script>
+      	<!-- <script src='https://code.responsivevoice.org/responsivevoice.js'></script> -->
+        <script type="text/javascript" src="js/app.js"></script>
+        <link rel="stylesheet" href="css/style.css">
+        
+      
+    </head>
+    <body onload="onBodyLoad()">
+    	<div id="menuSection" class="page">
+			<button id="startExamButton">Start Exam</button>
+			<button id="startPracticeButton">Practice</button>
+			<div id="optionsDiv">
+				<label for="shuffleQuestionsCheckbox">Shuffle questions?</label> <input type="checkbox" id="shuffleQuestionsCheckbox"/><br/>
+				<label for="shuffleAnswersCheckbox">Shuffle answers?</label> <input type="checkbox" id="shuffleAnswersCheckbox"/><br/>
+				<label for="hideAnswersOnNextPageCheckbox">Hide answers on question navigation (practice only)?</label> <input type="checkbox" id="hideAnswersOnNextPageCheckbox"/>
+			</div>
+			<label>Select certification: </label>
+			<select id="examTypeSelect">
+				<option value="dev401.txt">Dev 401</option>
+				<option value="salescloud.txt" selected>Sales Cloud</option>
+				<option value="servicecloud.txt" selected>Service Cloud</option>
+			</select>
+		</div>
+		<div id="questionsSection" class="page withBottomBar">
+			<div id="questionBodySection">
+				
+			</div>
+			<div id="answersSection">
+				
+			</div>
+			<div id="correctAnswersSection">
+				
+			</div>
+			<div id="wrongAnswersSection">
+				
+			</div>
+			<div id="navigationButtonsWrap">
+				<button id="previousQuestionButton">Previous</button>
+				<button id="markQuestionButton">Mark Question</button>
+				<button id="nextQuestionButton">Next</button>
+			</div>
+			<div id="showAnswersSection">
+				<button id="showAnswersButton">Show Answers</button> <br/>
+			</div>
+			<label for="jumpToQuestionInput">Jump to question: </label><input type="number" id="jumpToQuestionInput" maxlength="4" size="4"/><button id="jumpToQuestionButton">Go</button>
+			<div id="markedQuestionsSection">
+				<div id="markedQuestionsSectionHeader">
+					Marked questions: 
+				</div>
+				<div id="markedQuestionsButtonsSection">
+					
+				</div>
+			</div>
+			<div id="submitExamButtonWrap">
+				<button id="submitExamButton">Submit</button>
+			</div>
+			<div id="wrongQuestionsSection">
+
+			</div>
+
+		</div>
+		<div id="bottomBar">
+			<table>
+				<tr>
+					<td>
+						<button id="returnToMainMenuButton">Return to main menu</button>
+					</td>
+					<!-- <td class="centeredContent">
+						<button onclick='responsiveVoice.speak($("#questionBodySection").text());'>🔊 Read Question</button>
+					</td>	 -->				
+					<td id="fontSizeDiv">
+							<img class="fontSizeIcon" src="images/fontsizeup.png" addition="1"/>
+							<img class="fontSizeIcon" src="images/fontsizedown.png" addition="-1"/>
+					</td>						
+				</tr>
+			</table>
+		</div>
+    </body>
+</html>
