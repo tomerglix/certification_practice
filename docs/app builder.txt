@@ -1,0 +1,65 @@
+1. Universal Containers has included its orders as an external data object into Salesforce. You want to create a relationship between Accounts and the Orders object (one-to-many relationship) leveraging a key field for account which is on both external object and Account. Which relationship do you create:
+
+a) Lookup Relationship
+b) Master Detail Relationship
+c) Hierarchical Relationship
+d) External Lookup Relationship
+e) Indirect Lookup Relationship
+
+ans: e
+
+2. In unmanaged packages are the tests executed during deployment?
+
+a. yes
+b. no
+
+ans: a
+
+3. Which components can be added to a Lightning app on custom Object: (choose 3)
+
+a) Visualforce
+b) Standard Lightning component
+c) Custom Lightning component
+d) Global actions
+e) Object specific actions on the custom object
+
+ans: b,c,d
+
+4. Do Accounts and person accounts use the same icon?
+
+a. yes
+b. no
+
+ans: b
+
+5. Is there data loss when converting from Multi-Select Picklist to Single Select Picklist?
+
+a. yes
+b. no
+
+ans: a
+
+6. Universal Containers has a custom object "service" which has a lookup relationship to Account. Universal Containers wants to enhance Salesforce1 with an action that allows account managers to enter a new service to an Account while looking at the account. (Choose one):
+
+a) Enter a object specific action to Account and put it in the Account Layout
+b) Enter a object specific action to Service and put it in the Account Layout
+c) Enter a object specific action to Service and put it in the Service Layout
+d) Enter a object specific action to Account and put it in the Service Layout
+
+ans: a
+
+7. Can Case assignment rules be assigned to queues?
+
+a. yes
+b. no
+
+ans: a
+
+8. You want to use an External Data Object Table from Heroku carrying Product Category information. The data needs to be included in Salesforce and searchable. What do you have to do before you can use the connection (choose two):
+
+a) Press "validate and sync"
+b) Choose "include in Salesforce searches" option
+c) Choose "include as index field"
+d) URL / choose the URL
+
+

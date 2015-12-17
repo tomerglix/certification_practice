@@ -1,0 +1,1447 @@
+1. A consultant needs to import 2,000 source articles for a Salesforce Knowledge implementation. The source articles are in HTML and contain several images. All of the articles are FAQs.Before importing the articles into Knowledge, which step should a consultant perform? (Choose 3)
+
+A. Create the data categories and set up the data category values.
+
+B. Set up a zip file that contains the CSV, HTML, and image files.
+
+C. Create the custom fields and layouts for the FAQ article type
+
+D. Set up the article actions and assign publishers to each action
+
+E. Set the publication status of the article  to draft status
+
+ans: a,b,d
+
+2. A contact center agent wants to leverage subject matter experts (SMEs) on Chatter to resolve a complex issue for a customer.What is the recommended solution to increase the involvement of SMEs and track the case to completion in Chatter?
+
+A. Follow the SMEs to receive automatic updates when they add case comments
+
+B. Bookmark all the comments related to the issue from SMEs
+
+C. Use hashtag (#) to track the customer case and SMEs comments
+
+D. @mention the SMEs on the case Chatter feed and follow the case
+
+ans: c
+
+3. A contact center manager is looking for ways to reduce overall cost per case.What Salesforce metrics should the contact center manager evaluate? (Choose 2)
+
+A. Average number of activities per case
+
+B. Average number of articles attached to a case
+
+C. Total number of cases by origin
+
+D. Average customer satisfaction score by case
+
+ans: a,c
+
+4. A Contact center manager needs to track individual agent productivity on a monthly basis. The manager needs to create a dashboard to drive competition among the team by allowing all agents to view the dashboard to see how they are performing in comparison their peers.Which dashboard setting would meet this requirement?
+
+A.  Standard view
+
+B.  Logged in user
+
+C.  Running user
+
+D.  My Team view
+
+ans: c
+
+5. A customer calls the service desk at Universal Containers. The agent assigned to the call creates a case to capture the issue, but later realized the caller is not eligible for support.What solution should a consultant recommend to prevent the scenario from happening in the future?
+
+A. Add the entitlements related list to contact records
+
+B. Add the entitlement contacts related list to account records
+
+C. Add the assets related list to contact records
+
+D. Add the service contract related list to contact records
+ans: a
+
+6. A customer has recently implemented an on–premise telephony system that is common in the industry. This customer purchased Salesforce licenses and is planning to integrate these two systems.What option should a consultant recommend? 
+
+A. Implement an on–demand telephony solution provided by a vendor.
+
+B. Use a computer telephony integration (CTI) adapter that supports its telephony system.
+
+C. Create an API integration between Salesforce and the telephony system.
+
+D. Build a custom computer telephony integration (CTI) adapter using the Toolkit.
+
+ans: b
+
+7. A customer utilizes a high–volume Service Cloud portal for its Web customer support and is interested in deploying a chat solution.  What should be the first step in configuration and customization?
+
+A. Create user profiles or permission sets
+
+B. Enable Chatter Messenger for the organization
+
+C. Enable Live Agent for the organization
+
+D. Create an iframe to display the chat window
+ans: c
+
+8.A new customer to Salesforce is considering implementing a customer portal. The customer has millions of users and plans to evaluate a high–volume customer portal/Community.What is a key consideration when configuring a customer portal?
+
+A. Users cannot own records
+
+B. Users can download and view content
+
+C. Users are not associated with a rule in the hierarchy
+
+D. Users can be part of a case team
+ans: c
+
+9.All of the following objects may have a queue EXCEPT: 
+
+A. Accounts 
+
+B. Cases 
+
+C. Leads 
+
+D. Custom Objects
+ans: a
+
+10. An outsourced contact center is losing part–time agents to a nearby contact center that promotes flexible scheduling. Which method can be used to improve agent retention? Choose 2 answers: 
+A. Mix telephony interactions with email and chat 
+
+B. Extend benefits to part–time agents 
+
+C. Provide additional training on tools and process 
+
+D. Allow shift trading between agents
+ans: b,d
+
+11. At Universal Containers, a support agent dedicated to one customer regularly handles complex integration–related cases. In these cases, the agent collaborates with Universal Container' product development team and the client's system integration team.  What would the consultant recommend to expedite the handling of these cases?
+
+A. Build a repository of Knowledge articles related to integration and share it with the customer.
+
+B. Enable Chatter case feed and add product development team members to the case team.
+
+C. Create a related child case and assign the child case to the product development team.
+
+D. Create a private Chatter group with customers and invite key individuals to join the group.
+ans: d
+
+12. Auto Response rules work on which objects? 
+
+A. Leads and Cases 
+B. Leads and accounts 
+C. Accounts and Opportunity 
+D. Accounts and Cases
+ans: a
+
+13. Case Assignment Rules are based on elapsed time 
+
+A. True 
+B. False
+
+ans: b
+
+14. Case escalation rules triggered on the last modification will be reset each time a user does which of the following actions? 
+
+A. Reads the case 
+
+B. Adds a related comment to the case 
+
+C. Adds an activity or sends an email from the case record 
+
+D. Edits the case 
+
+E. All of the above
+
+ans: d
+
+15. Customer Portal/Community Users can Run Reports if: Choose one answer: 
+
+A. They have the Admin Privileges 
+
+B. Their Profile includes the Run Reports Permission 
+
+C. Have access to the Public Report Folder 
+
+D. All of the above
+
+E.  None of the above
+ans: e
+
+16. Customer Portal/Community Users can View, Create and Search Notes and Attachments on Custom Objects 
+
+A. True 
+
+B. False
+ans: a
+
+17. Customer Portal/Community Users have access to Dashboards 
+
+A. True 
+
+B. False
+ans: b
+
+18. Universal Health supports medical kits that have been distributed to thousands of hospitals. Hospitals can request future credit by providing the kit usage information by patient. The regional processing team reviews these requests and awards coupons for approved cases. What should a consultant recommend to manage this process using Service Cloud?
+
+A.Enable the self–service portal and generate logins for the hospital staff by region
+
+B.Design a custom object to track credit requests and route them regionally using assignment rules
+
+C.Use Web–to–Lead to capture the credit requests and assign them to regional teams using workflow rules
+
+D.Use cases to track the credit requests and route them to regional teams using assignment rules
+ans: d
+19. UC wants to display a list of open cases, data from an external system, and Knowledge articles in one view in Salesforce. What should a consultant recommend to meet this requirement?
+
+A.Configure the Service Cloud console, add Visualforce components, and activate the Knowledge sidebar
+
+B.Configure the Service Cloud console, integrate the external system, and enable Knowledge
+
+C.Create a custom Visualforce page to display case list view, external system and Knowledge articles
+
+D.Configure the agent console and display the articles, case view, and external system custom object
+ans: a
+20. Which step should a consultant take to import articles into Salesforce Knowledge? Choose 2 answers.
+
+A.Create a separate .csv file for each article type
+
+B.Use the data loader to import unstructured articles
+
+C.Map articles with HTML sections to rich text area fields
+
+D.Use change sets to import data categories
+ans: a,c
+21. The Universal Container's customer support organization has implemented knowledge, knowledge centered support (KCS) in its call center. However, the call center management thinks that agents are not contributing new knowledge articles as often as they should. What could the company do to address this situation? (choose 2)
+
+A.Create a dashboard for articles submitted by agents & approved for publication
+
+B.Require agents to check a box on case when submitting a new suggested article
+
+C.Measure & reward agents based on the # of new articles approved for publication
+
+D.Measure & reward agents based on the # of new articles submitted for approval
+ans: a,d
+
+22. What is a characteristic of Visual Workflow? Choose 3 answers.
+
+A.Elements can be used to pass data to legacy systems
+
+B.Only one version of a flow can be activated at a time
+
+C.Apex code must be used to pass data to legacy systems
+
+D.Apex code must be used to update fields in the database
+
+E.Elements can be used to update fields in the database
+ans: b,c,e
+23. What are the steps you would take before you do an article migration (choose 2)
+
+A.Create data categories
+
+B.Create the zip file with html, rich text field
+
+C.Another Option (Unknown)
+
+D.Create fields and article types
+ans: b,d
+
+24. Universal Containers wants to implement knowledge to assist with the resolution of cases.What should a consultant recommend to meet this requirement?Choose 3 answers
+
+A.Enable agents to create their own personal article.
+
+B.Create an email template to send articles as PDF attachments.
+
+C.Enable suggested articles on new cases.
+
+D.Enable article submission during case close.
+
+E.Enable article customization for open cases.
+ans: b,c,d
+25. UC has activated Email–to–Case functionality to allow customers to correspond with support agents via email. Which options are available with Email–to–Case? Choose 2 answers.
+
+A.Assignment, escalation, and workflow rules are processed on inbound emails
+
+B.Follow–up emails and attachments related to a case are attached to the case
+
+C.Follow–up emails related to a case will update the case comments
+
+D.Only one inbound email address can be used for Email–to–Case
+ans: b,c
+26. UC's contact center management wants to enhance its Service Cloud implementation and deploy a solution that will better assist its service agents and customers in troubleshooting and resolving issues. The contact center manager has outlined the following requirements: Provide content categorization for easier navigation, searching, and visibility. Shorten agents' issue resolution time by suggesting relevant content. Establish a publication lifecycle process based on industry leading practices. Ensure the solution is tightly integrated with Service Cloud console and Live Agent. What Salesforce solution should a consultant recommend
+
+A.Content
+
+B.Chatter
+
+C.Solutions
+
+D.Knowledge
+
+ans: d
+
+27. Universal containers wants to implement a new web presence to support its customers.it has provided the following requirement.• Ability for visitors to search knowledge articles without registering or logging in.• Ability for over one million registered customers to security submit cases and view the status of those cases.• Ability to display white papers to registered customers.• Ability for registered customers to save favorite knowledge articles for easy access later. What should the consultant recommend as part of the solution?
+A.Implements partners' portal with knowledge.
+B.Implement enterprise admin portal with content.
+C.Implement service cloud portal with content
+D.Implement service cloud portal with knowledge.
+ans: d
+
+28. UC is concerned with system performance in its contact center because the number of records has exceeded 40 million. What platform functionality might be affected by the number of contact records?
+
+A.Contact related list load time
+
+B.Contact report run time
+
+C.Contact view page load time
+
+D.Contact list view edit time
+ans: b
+
+29. Universal Containers is launching a full line of new products and Service Cloud should support the following requirements:– Agents need to collaborate with other teams– The product development team needs to be alerted on high–priority cases for specific products.  Which solution will meet these requirements
+
+A.Use escalation rules for notifications and account teams to monitor cases
+
+B.Use workflow rules for notifications and case teams to monitor cases
+
+C.Use workflow rules for notifications and account teams to monitor cases
+
+D.Use escalation rules for notifications and case teams to monitor cases
+ans: b
+
+30. Universal containers has implemented salesforce knowledge and the service manager wants to encourage agents to use knowledge base. Which metric should the service manager monitor?
+
+A.Number of customer ratings
+
+B.Number of approved articles
+
+C.Number of archived articles
+
+D.Number of article votes
+ans: d
+
+31. Universal Containers is using the Service Cloud in its contact center. The contact center manager wants to deploy Answers Community.What should a consultant recommend to integrate Answers into its Service Cloud implementation? (Choose 2)
+
+A.Allow administrators and trusted community members to escalate a question into a case.
+
+B.Display up to three category groups to help organize questions for easy browsing.
+
+C.Create a draft Knowledge article from a reply using the promote article button.
+
+D.Use the close and resolve button on the case page layout to close a case and mark the question resolved.
+ans: a,c
+
+32. UC is in the process of setting up a business–to–business (B2B) portal. The company needs to give customers access to service level agreements (SLA) via the portal. Which solution is recommended to accomplish this requirement?
+
+A.Service contracts
+
+B.Cases
+
+C.Milestones
+
+D.Assets
+ans: a
+
+33. A contact center manager needs to migrate existing help guides and procedure manuals into salesforce knowledge.What steps should the consultant do prior to importing the documents into salesforce knowledge? Choose 2 answers
+
+A.Create the article types and fields.
+
+B.Create the profile based category visibility settings.
+
+C.Create the data category groups and hierarchy.
+
+D.Compress the CSV, HTML, and image files for the article types.
+ans: a,d
+
+34. The business and IT leaders at UC have agreed to implement Information Technology Infrastructure Library (ITIL) for its IT Help Desk. Which benefits will result from a successful ITIL implementation? Choose 3 answers.
+
+A.Aligning IT and the business which allows IT to better understand current and future needs of the business
+
+B.Achieving cost savings by utilizing operational resources only for the duration of the project implementation
+
+C.Create service levels between IT and the business to provide value at an agreed upon cost
+
+D.Setting customer expectations with predictable processes that are consistently used by the organization
+
+E.Delivering IT services that are focused on functionality rather than usability
+ans: a,c,d
+
+35. Universal Containers is evaluating whether to implement On–Demand Email–to–Case or Email–to–Case and needs to ensure the solution selected will meet its requirements.Which customer requirement would require the use of Email–to–Case?
+
+A.Accepts attachments from emails
+
+B.Requires the use of Transport Layout Security (TLS)
+
+C.Accepts email attachments larger than 25 MB
+
+D.Handles more the 10,000 emails a day
+ans: c
+36. UC wants to provide its 20 million customers with a portal where they can: Submit inquires, Monitor the status of those inquiries, and View their contact information. To meet these requirements, which type of portal license would be most appropriate for the customers?
+A.Service Cloud portal (Customer Community)
+
+B.Partner portal
+
+C.Sites
+
+D.Enterprise admin
+ans: a
+37. UC wants to assign support agents to handle only specific interaction channels based on one of the following channel groupings: Phone, Phone and Email, Social Media (Facebook and Twitter). What should a consultant recommend to accomplish this? Choose 2 answers.
+
+A.Create an agent profile for each channel grouping
+
+B.Create a Service Cloud console to support all channel groupings
+
+C.Create an agent role for each channel grouping
+
+D.Create a unique case page layout for each channel grouping
+ans: c,d
+38. A customer analyzed its historical cases and found that over 50% of cases were created by users who forgot their passwords. Which action will reduce the amount of time that agents spend resolving these cases?
+
+A.Create a workflow rule to increase case priority for cases involving a forgotten password.
+B.Create a case assignment rule to assign all cases to a dedicated agent who resets passwords.
+C.Create an Apex trigger to reset the user's password if the case description contains the word forgotten.
+D.Create an auto–response rule and email template with details on how users can reset their passwords.
+
+ans: d
+
+39. UC has a three–tiered contact center. Cases are routed to Tier 1 or Tier 2 based on severity, priority, complexity, or SLAs. Cases are assigned to Tier 3 only if they are escalated by Tier 1 and Tier 2. How can UC measure case escalation?
+A.Create a custom trigger to generate history when cases get escalated between tiers.
+
+B.Create a case report to show all cases across tiers filtered by an escalation flag.
+
+C.Create a case report to show the number of cases for each tier and sort them by case owner.
+
+D.Create an approval process to ensure only the appropriate cases get escalated.
+
+ans: b
+40. Universal Containers' contact center manager needs to measure the following metrics:– Agent productivity– Customer satisfactionWhich report should a consultant recommend? (Choose 2)
+
+A.Escalation rate
+
+B.First contact resolution
+
+C.Average handle time
+
+D.Average speed to answer
+ans: b,c
+41. Universal containers purchased knowledge and would like to implement it as soon possible.What approach should a consultant recommend?
+
+A.Activate the knowledge sidebar within the service cloud console.
+
+B.Create a knowledge visual force component on the case detail page.
+
+C.Activate the knowledge sidebar on the case detail page.
+
+D.Create a knowledge visual force component within the service cloud console.
+ans: a
+42. The cost of the services for universal containers contact centers have steadily increased.What solution should a consultant recommended to help reduce the cost of service in the contact centers? Choose2
+
+A.Create auto –response templates for email.
+B.Enable chatter for agents' collaboration.
+C.Enable Live Agent to handle incoming service inquiries
+D.Enable ideas in a service cloud portal.
+
+ans: b,c
+43. Universal containers wants to streamline the troubleshooting process for inbound phone calls using visual workflow. A call greeting script to be created to perform the following:• Prompt agent to ask for the caller's geographic region.• Allow the agent to select a region from the picklist in the accounts object.• Present a list of services available in that region to the agent.What visual workflow element should a consultant use to accomplish this? Choose 3
+
+A.Screen
+
+B.Decision
+
+C.Assignment
+
+D.Record update
+
+E.Record create
+ans: a,b,c
+
+44. UC is in the process of implementing Service Cloud. In which order should the data be migrated?
+
+A.Users, contacts, accounts, cases
+
+B.Accounts, contacts, cases, users
+
+C.Users, accounts, contacts, cases
+
+D.Accounts cases, users, contacts
+ans: c
+
+45. Which document should be created to support the initial planning phase of an implementation project? (Choose 2)
+
+A.Solution design document
+
+B.Project milestones
+
+C.Requirements traceability matrix
+
+D.Project kickoff presentation
+ans: b,d
+
+46. The UC contact center offers support via email, the Internet, and a Service Cloud portal. The contact center manager wants to demonstrate the success of recent self–service initiatives to executive management. Which report should the contact center manager present to executive management? Choose 2 answers.
+
+A.Number of cases closed by a self–service user
+
+B.Number of cases created using portal
+
+C.Number of IVR inquiries without agent involvement
+
+D.Average call handle time by team
+ans: a,b
+
+47. UC has completed development and testing of its Service Cloud implementation and plans to migrate functionality from the sandbox environment to the production environment. What should be used for migration functionality?
+A.Mass Transfer Records, change sets, and Force.com migration tool
+
+B.Force.com migration tool, Force.com IDE, and change sets
+
+C.Visual Workflow, data loader, and Force.com IDE
+
+D.Data loader, change sets, and Force.com Excel Connector
+ans: b
+48. UC, a new Salesforce customer, needs its millions of consumers to have public access to knowledge on it corporate website. The consumers also need the ability to login to create, update and read historical cases. Which product and license type would meet all of these requirements?
+
+A.Force.com Sites with Knowledge and Web–to–Case
+
+B.Visualforce and Self–Service Portal
+
+C.Force.com Sites with Knowledge and Email–to–Case
+
+D.Force.com Sites and High–Volume Customer Portal
+ans: d
+49. Which Service Cloud tool requires the least agent involvement to resolve a customer issue?A.Salesforce Knowledge
+
+A.Salesforce Knowledge
+B.Open CTI
+
+C.Salesforce for Twitter
+
+D.Live Agent
+ans: a
+50. Universal containers support team requires its customers to submit their support inquiries via free form email (outlook, etc.), additional requirements are listed below: a) Support attachments up to 30 mb per inquiry b) Over 10,000 inquiries per day. Which solution should a consultant recommend to meet these requirements?
+
+A.On–demand email–to–case
+
+B.Email–to–case
+
+C.Web–to–case
+
+D.Customer chatter groups
+ans: b
+51. Universal containers has implemented service cloud in their call center and would like to integrate it with their existing telephone system. All members of staff use a standard build for desktop computers and the IT department has indicated that they a produce a custom desktop build for the call center staff. Which solution should a consultant recommend?
+
+A.Build an adapter using the CTI toolkit.
+
+B.Move to a cloud–based telephony system.
+
+C.Implement an adapter using the telephony/API
+
+D.Implement an adapter built on open CTI
+ans: d
+52. Universal Containers staffs its contact centers to allow for up to 20% of the total case volume to be escalated. The contact center would like to measure case escalation rate to staff to ensure sufficient training for Tier 1 agents.What solution should a consultant recommend to meet this requirement?
+
+A.Create a dashboard report to display and compare escalated cases against non–escalated cases.
+
+B.Create a daily snapshot report of all cases and calculate percentage of escalated cases.
+
+C.Create a formula field on the case record to calculate percentage of escalated cases.
+
+D.Create a case report with a custom summary formula to calculate the percentage of escalated cases.
+ans: a
+53. The project manager on a Service Cloud implementation is responsible for coordinating user acceptance testing (UAT) for a customer.Which tasks should be completed prior to UAT? (Choose 2)
+
+A.Fund customer approval on training materials
+
+B.Verification that sample data has been loaded
+
+C.Approval of test scripts from the business lead
+
+D.Verification of the production migration checklist
+ans: b,c
+54. UC wants to create a process to verify that customers are eligible for support before a case is created. A consultant recommends using entitlement management to meet this requirement. Which benefit would be realized by using the entitlement management feature? Choose 2 answers.
+
+A.Ability to determine if a customer has escalated a case in the past
+
+B.Ability to prompt callers for the service contract number with IVR menus
+
+C.Ability to enforce service levels with time–dependent processes
+
+D.Ability to specify unique service levels for each customer
+ans: c,d
+55. For which purpose should a contact center use Visual Flow?
+
+A.To automate business processes for agents who troubleshoot customer support issues via phone
+
+B.To escalate to the support manager if it has been open for more than 72 hours
+
+C.To assign follow–up tasks to an agent one week after a case is closed.
+
+D.To automatically assign cases to a specific queue based on the customer support level
+ans: a
+56. Universal containers is having trouble with adoption of its knowledge base. Customers have reported difficulty location they need. The following facts are known:• Data categories are used to indicate which contact center and business unit authored the article.• Articles have drastically different types of content mixed together (e.g. FAQ, product manuals and install guides).• Agents are not consistency completing all article fields.What should the consultant recommend as a first step in improving the usability of the knowledge base?
+
+A.Use a Visual Force page to enable more granular search filtering.
+
+B.Create article types for each content type and implement an approval process.
+
+C.Add a data category to indicate content type and enable workflow rules.
+
+D.Create article types for each business unit and have supervisors review articles.
+ans: b
+57. Universal containers contact center is experiencing increased call volumes due to a growing product portfolio.What is the recommended strategy to allow the contact center to handle the increased customer inquiries more efficiently?
+
+A.Make contact center representatives accessible 24/7 to distribute the call volume.
+
+B.Redirect users from the company site to social media forums about the products.
+
+C.Hire contact center representatives that specialize in each of the product categories.
+
+D.Make knowledge base articles and community answers accessible on its website.
+ans: d
+58. Universal Containers must provide contact center agents with access to a customer's payment history if the call has a billing problem. The following considerations need to be taken into account:• Billing problems account for less than 5% of calls.• Billing data is stored in an external system containing over 20 million records.• Agents do not want to maintain separate login sessions for Salesforce and the billing system.• What solution should a consultant recommend? (choose two)
+
+A.Create a custom tab with type URL that displays a search page from the billing system.
+
+B.Import payment data into Salesforce and add to the contact page layout as a related list.
+
+C.Create a visual force page that retrieves payment information via a web service call–out.
+
+D.Create a custom web service to handle invoice inserts and updates from the billing system.
+ans: a,c
+59. Universal Containers is transitioning from a legacy service and support system to salesforce.What is a recommended way to migrate and cleanse the data?
+
+A.Use salesforce data loader to load and cleanse the data.
+
+B.Cleanse the data outside of salesforce and then migrate the data.
+
+C.Upload the data into salesforce and then run the native de–dupe tool.
+
+D.Use the salesforce import wizard to load and cleanse the data.
+ans: b
+60. What is a benefit of deploying Knowledge in a high–volume Service Cloud portal? Choose 2 answers.
+
+A.Uncovers gaps in the knowledge base
+
+B.Eliminates tracking of customer entitlements
+
+C.Reducing incoming call volume
+
+D.Replaces the need for an email channel
+ans: a,c
+61. Support agents need to verify that customers are eligible to receive customer support before they can update What object is used to verify that a customer is entitled to receive support? Choose2
+
+A.Case history
+
+B.Contacts
+
+C.Products
+
+D.Service contracts
+ans: b,d
+62. Universal Containers has a service level agreement (SLA) with customers that requires an agent to take ownership of and respond to incoming cases within two hours of case creation.Which solution would help Universal Containers meet its SLA?
+
+A.Create a workflow rule to send an email to support managers when a case is created and assigned to a queue.
+
+B.Use case auto–response rules to send an email to support managers within one hour of case creation.
+
+C.Assign cases to queues and use escalation rules to escalate cases that have not been accepted by an agent within one hour.
+
+D.Create a workflow rule to assign a task to all members of a queue if a case has not been accepted by an agent within one hour.
+ans: c
+63. Universal containers is using the salesforce console for service for managing cases. They would like to add the salesforce to enable click–to–dial capability. What needs to be configured for the softphone to work in salesforce? choose 3 answers:
+
+A.Install an adapter from AppExchange to work with third–party CTI systems.
+
+B.Assign the salesforce CTI license to salesforce users.
+
+C.Create a softphone layout and assign to user profiles.
+
+D.Use apex to create an adapter to work with third–party CTI systems.
+
+E.Assign the correct salesforce users to the call center.
+ans: a,c,e
+64. UC is creating an inbound customer support contact center to handle questions about using its products. What should be considered when designing the contact center?
+
+A.Workforce management and customer satisfaction score
+
+B.Agent skill–based routing and predictive dialer
+
+C.Automatic call distributor and interactive voice response
+
+D.Average handling time and first call resolution time
+ans: c
+65. What are some uses of www.trust.salesforce.com in business continuity planning? Choose 3 answers.
+
+A.To provide online security threat information
+
+B.To provide information regarding planned maintenance
+
+C.To provide best practices for continuity plans
+
+D.To provide live support for system and data backup
+
+E.To provide live and historical data on system performance
+ans: a,b,e
+66. Universal Containers is implementing an entitlement process in its contact center to gain better visibility into how well the company is delivering on customer service level agreements (SLAs).How can milestones be used to accomplish this goal? (Choose 2)
+
+A.To display whether a case response complies with a customer service level agreement
+
+B.To identify the customer contact associated with a particular stage of a service contract
+
+C.To monitor the case escalation rule queue to confirm service levels are met
+
+D.To represent metrics such as first–response and resolution time on cases.
+ans: a,d
+67. Universal Containers wants to track customer satisfaction (CSAT).Which solution will automate the process for support agents to survey customers when cases are closed?
+
+A.Modify the user interface settings for the case survey sidebar
+
+B.Create a validation rule for case survey email templates
+
+C.Utilize an AppExchange package to handle customer surveys
+
+D.Enable the case survey object for the customer portal 
+ans: c
+68. UC is implementing Salesforce Knowledge and immediately wants to begin building a repository of frequently asked questions (FAQ) encountered by contact center agents. How can this be accomplished?
+
+A.Create an FAQ article type and enable the submit articles feature on the case close page layout
+
+B.Enable Ideas for the contact center agents and have them submit FAQ articles at the time a case is closed
+
+C.Create an FAQ article type and configure the enable suggested articles option in support settings
+
+D.Define a data category called FAQ and assign category visibility to users in the contact center role
+ans: c
+69. UC has a telemarketing contact center with agents who cold–call prospects and follow–up on prospects that have been routed to them. Which metric should UC consider when designing the contact center? Choose 2 answers.
+
+A.Number of lead referrals
+
+B.Number of outbound calls per day
+
+C.Number of attempts to contact
+
+D.Number of closed cases
+ans: b,c
+70. UC has two customer service contact centers and each focuses on a specific product line. Each contact center has a varying call volume, contributing to a high operational cost for the company. UC wants to optimize the cost without compromising customer satisfaction. What can a consultant recommend to accomplish these objectives? Choose 2 answers.
+
+A.Cross–train agents on both product lines
+
+B.Prioritize customer calls based on their SLA
+
+C.Implement a customer self–service portal
+
+D.Enable agents to transfer calls to other agents
+ans: a,c
+71. Which method can be used to route social media inquiries with Salesforce using Salesforce for Twitter and Facebook?
+
+A.Enable social profile and add workflow rules to the contact object
+
+B.Use the routing queues provided with Salesforce for Twitter and Facebook
+
+C.Use Twitter–to–Case and add workflow rules to the case object
+
+D.Enable social profile and add assignment rules to the case object
+ans: d
+72. Universal Containers CFO is looking for ways to reduce contact center costs.Which customer service metric should the CFO monitor to reach the budget goals? (Choose 2)
+
+A.Customer retention
+
+B.Average handle time
+
+C.First call resolution
+
+D.Upsell percentage
+ans: b,c
+73. Universal Containers has basic field service requirements and has not yet deployed the Service Cloud. The company would like to automatically create a field service dispatch record and assign it to a queue when specific case criteria are selected by an agent working the case.Which solution will create and route the field service dispatch record when the case is saved?
+
+A.Use an Apex trigger
+
+B.Use a validation rule
+
+C.Use a workflow rule with an action
+
+D.Use a case assignment rule
+ans: d
+74. UC wants to reduce incoming support phone call volume. What action can be taken to meet this requirement? Choose 2 answers.
+
+A.Implement Salesforce Knowledge on a portal
+
+B.Leverage Live Agent for web–based chat
+
+C.Implement Service Cloud console to support agents
+
+D.Enable service contracts and entitlements
+ans: a,b
+75. Universal containers is experiencing system timeouts when running case reports.  What should a consultant recommend to improve the performance of the reports?  Choose 2 answers.
+
+A.Remove formula fields from filter criteria.
+
+B.Remove date boundaries from filter criteria.
+
+C.Remove dashboards based on long–running reports.
+
+D.Remove unnecessary columns from the reports.
+ans: a,d
+76. UC wants to deploy the Service Cloud to its contact centers located across North America, Europe and Asia. The company would like standardized contact center processes and reporting implemented in its centers worldwide. Which approach should a consultant recommend in this scenario?
+
+A.Recommend utilizing out–of–the–box functionality to reduce cost and ensure one worldwide process and reporting
+
+B.Recommend that the VP of Worldwide Support design a global template to provide a clear vision and standardization
+
+C.Assign teams in each major contact center to design a solution unique to its needs and have an analyst build a combined report
+
+D.Assign a global team of experienced agents and leaders to create a common design template and report structure
+ans: d
+77. A contact center agent needs to respond privately to a Facebook post on the fan page. The post has been converted to a case using salesforce for twitter and Facebook.How can the agent respond privately to the customer?
+
+A.The agent must use the Send private Message"" button on the case
+B.The agent must invite the customer to another channel.
+C.The agent can post privately on Facebook for salesforce.
+D.The agent must change the case status before replying.
+ans: c
+78. To integrate with Facebook and Twitter, and monitor negative posts use:
+
+A.Option 4
+
+B.Social Hub
+
+C.TwitterForce
+
+D.Salesforce and Google Analytics
+ans: b
+79. The contact center manager at UC is concerned that the first call resolution rate for their team is too low and would like to see improvement in this metric. What should a consultant recommend to improve this metric?
+
+A.Interactive voice response
+
+B.Workforce management
+
+C.Private branch exchange
+
+D.Skills–based routing
+ans: d
+80. What is a common deflection technique to reduce the number of interactions for a contact center? Choose 2 answers.
+
+A.Suggest articles for a web–to–case question
+
+B.Recommend articles during a call for a support agent
+
+C.Suggest articles for an email–to–case question
+
+D.Recommend articles prior to a Live Agent session
+ans: a,d
+81. Universal Containers is setting up a field service dispatch contact center.Which functionality should be considered when designing the contact center? (Choose 2)
+
+A.Chatter groups for customer
+
+B.Mobile access to case information
+
+C.Predictive dialer for outbound call
+
+D.Visibility into service entitlements
+ans: b,d
+82. The support manager wants information on the knowledge base searches conducted by customers and call center agents. Which metric would be most useful to identify knowledge article effectiveness? Choose 2 answers.
+
+A.Knowledge articles with the lowest rating
+
+B.Number of knowledge articles in each category
+
+C.Knowledge search query with no results
+
+D.Knowledge articles created by call center agents
+ans: a,c
+83. What can universal containers do to reduce costs and immediately improve contact center agent productivity choose 2
+
+A.Enable templates for written responses.
+
+B.Offer supports through Facebook and twitter.
+
+C.Implement team productivity dashboards.
+
+D.Streamline the agent interface.
+ans: a,d
+84. A universal container wants to measure the efficiency of its contact center.Which metric should the contact center manager analyze?Choose 3 answers.
+
+A.Number of cases escalated.
+
+B.Number of closed cases with articles attached.
+
+C.Number of new customers added.
+
+D.Average number of days to close cases.
+
+E.Number of open cases per day.
+ans: a,d,e
+85. What is the capability of case feed?
+
+A.Embed case feed functionality within a visual force page.
+
+B.Add custom visual force pages to the case feed page layout.
+
+C.Enable call control using the CTI case feed publisher.
+
+D.Switch from case feed to standard detail pages using a console component
+ans: a
+86. UC wants to implement a Knowledge management process with the following requirements: It must contain four different kinds of content: customer FAQs, product specifications, contact center procedures, and product manuals. It must provide the ability to filter Knowledge search results by a single product, multiple products, or all 56 products. Any product–related content created by contact center agents must be approved by the contact center manager and the Knowledge manager before being published. Product content should only be visible internally to contact center agents who handle the product. How should a consultant recommend that Knowledge be configured? Choose 3 answers.
+
+A.Configure workflow rules for each data category
+
+B.Configure article types for each kind of content
+
+C.Define approval processes for each article type
+
+D.Define approval processes for each product
+
+E.Configure data category values for each product
+ans: a,b,e
+87. What is the primary function of a private branch exchange (PBX)?
+
+A.To use speech recognition to direct calls
+
+B.To route calls to different agents
+
+C.To receive multiple calls at one time
+
+D.To report the caller's background information
+ans: c
+88. Universal containers want support agents to have the ability to work on multiple cases at the same time.What should a consultant recommend to meet this requirement?
+
+A.Create a visual force page to display multiple cases.
+
+B.Open multiple salesforce windows at the same time.
+
+C.Configure and utilize the service cloud console.
+
+D.Configure and utilize the agent console.
+ans: c
+89. Universal containers assigns its contact center agents to certain interaction channels and would like to optimize based on their assigned interaction channels.What should a consultant recommend to meet this requirement?
+
+A.Create case page layouts for each interaction channel and assign them to different agent profiles.
+
+B.Create multiple agent console applications and configure the layout based on the user's requirements.
+
+C.Create multiple service cloud console applications and configure them based on the user's requirements.
+
+D.Create a service cloud console layout and allow the agents to drag and drop the components they need.
+ans: c
+90. The IT help desk at UC is divided into two tiers to handle escalations. The company would like to improve the collaboration among help desk agents and reduce the number of issue escalations. What solution should a consultant recommend?
+
+A.Allow agents to add comments to each other's cases
+
+B.Use Chatter Answers for the help desk
+
+C.Create a Chatter group for the help desk
+
+D.Enable Chatter on Knowledge articles
+ans: c
+
+91. A contact center manager needs to restrict who can create an FAQ Article Type within Knowledge. What should a consultant recommend to accomplish this requirement? Choose 2 answers.
+
+A.Hide the Article Management Tab for users who should have read–only access to articles
+
+B.Create a publisher profile that includes create access on the FAQ article type
+
+C.Enable the Manage Articles permission for the publisher profile and assign it to users
+
+D.Set the organization–wide default to private and create sharing rules for the FAQ article type
+ans: b,c
+92. Support engineers need to see a complete chronological list of field edits to a case, associated emails, case comments, and field edits to related objects in a single view while working on a case. How should this requirement be met?
+
+A.Create a custom report
+
+B.Create a custom view on the Case tab (or Case Feed)
+
+C.Create a custom Visualforce page
+
+D.Create a custom related list on the case
+ans: d
+93. UC's customer service technicians need to access the following information while at a customer site to complete the service call: Customer order history, Level of contracted support, List of replaceable parts. What system can Salesforce integrate with to retrieve this information and make it available to technicians in the field?
+
+A.A knowledge management system
+
+B.A third–party mobile application platform
+
+C.A workforce management system
+
+D.An enterprise resource planning system
+ans: d
+94. A contact center manager wants to measure the impact of a new customer case program.What can be used to measure an increase in customer satisfaction? Choose 2
+
+A.Customer satisfaction survey.
+
+B.Average handle time.
+
+C.First call resolution.
+
+D.Service–level agreement.
+ans: a,b
+95. Which element is true regarding a prebuilt Salesforce computer telephone integration (CTI) adapter for different telephone systems? Choose 2 answers.
+
+A.It is an intermediary between a telephony system and a Salesforce call center user
+
+B.It allows voicemails to be captured and stored as attachments on cases
+
+C.It utilizes the Softphone capability from within the Salesforce application
+
+D.It is a server–based software program that controls the behavior of a Salesforce SoftPhone
+ans: a,c
+96. Using standard case management capabilities, what can be emailed to a customer as a PDF attachment?
+
+A.Articles appearing in the knowledge sidebar.
+
+B.Knowledge articles attached to the case.
+
+C.Contract details related to the entitlement.
+
+D.Products and assets associated to the case.
+ans: b
+97. Universal containers want to identify potential delays in the customer support process.Which metric should the contact center management analyze?
+
+A.Cases created by type.
+
+B.Case volume by channel.
+
+C.Average case stage duration.
+
+D.Open cases by reason.
+ans: c
+98. UC has discovered that the average time an agent takes to resolve a case has increased. What should a consultant recommend to help reverse this trend? Choose 2 answers.
+
+A.Configure entitlements and milestones to enforce SLAs
+
+B.Improve the training provided to existing agents
+
+C.Hire more agents for the contact centers
+
+D.Track social sentiment across social media outlets
+ans: a,b
+99. What key metric should a contact center manager use to evaluate the effectiveness of a new Service Cloud implementation? (Choose 2)
+
+A.Number of total cases handled	
+
+B.First contact resolution rate
+
+C.Total number of solutions created by agent
+
+D.Average number of knowledge articles published
+ans: a,b
+100. UC wants to ensure the contracted service level requirements for its clients are being met. What should be configured to meet this requirement?
+A.Entitlement processes, contracts, milestones, and milestone actions
+
+B.Entitlement processes, milestone, milestone actions, and entitlements
+
+C.Entitlement processes, contract line items, milestones, and entitlements
+
+D.Entitlement processes, contracts, contract line items, and entitlements
+ans: a
+101. Universal Containers is implementing a CTI solution for its inbound service and support contact center. Currently, the company handles only existing customers with support issues. The contact center manager has been tasked with improving sales for the premier support offering.What key metrics can be expected to improve following the CTI implementation? (Choose 2)
+
+A.Average days to close
+
+B.First call resolution
+
+C.Average handle time
+
+D.Abandon rate
+ans: c,d
+102. What process is a use case for Visual Workflow? Choose 3 answers.
+
+A.Assignment of email to a case queue based on subject
+
+B.Decision–based troubleshooting for representatives
+
+C.Field validation during case creation
+
+D.Cross–sell promotions for representatives
+
+E.Caller verification and creation of a new case
+ans: b,d,e
+103. UCs is implementing Salesforce Knowledge at its contact center. The contact center has a dedicated support team for each product that it supports. Contact center agents should only be able to view articles for the product they support. What solution should a consultant recommend to meet this requirement?
+
+A.Assign team–based profiles to the associated product data category value
+
+B.Assign team–based roles to the associated product article types
+
+C.Assign team–based profiles to the associated product article types
+
+D.Assign team–based roles to the associated product data category value
+ans: d
+104. Universal Containers has millions of customers in Salesforce, but only a very small percentage have opened support cases in the past. Recently, Universal Containers has implemented a Service Cloud portal and plans to allow customers to be authenticated users to increase self–service rates.Which method should be used to enable the customers on the portal? (Choose 2)
+A.Create active customers as portal users and send them email notifications
+B.Have agents provide customers with portal registration instructions when working a case
+C.Have agents manually create users when portal access is requested by customers.
+D.Identify active customers and send them registration instructions via email.
+ans: a,b
+105. UC is initiating a program to improve customer satisfaction. As part of the program, customers must be surveyed after the case is closed to ensure the customer is satisfied and the issue has been resolved. What solution should a consultant recommend to meet this requirement?
+
+A.Use auto–response rules to send an email to the customer
+
+B.Use assignment rules to assign the case to a case queue
+
+C.Use escalation rules to assign the case to a case queue
+
+D.Use workflow rules to send an email to the customer
+ans: d
+106. Universal containers is migrating from a legacy system to the service cloud. The company currently tracks entitlements as agreements in its legacy system. The legacy system will be archived and unavailable after go–live. Agents will need easy access case information for the last one year.
+
+A.Migrate closed cases to a custom read–only object.
+
+B.Migrate open and closed cases with milestones and entitlements.
+
+C.Migrate closed cases with milestones and entitlements.
+
+D.Migrate open and closed cases without milestones and entitlements.
+ans: b
+107. What support strategy will enable an organization to improve its overall capability for handling customer support inquires without increasing the number of call center agents?
+A.Computer telephony integration.
+
+B.Facebook integration.
+
+C.Entitlement management.
+
+D.Knowledge–centered support.
+ans: d
+108. A consultant is working on a Service Cloud implementation with a fixed–budget and timeline. The analysis phase of the project has just been completed. Additional requirements were discovered that will result in the project exceeding timeline and budget constraints. What is the first step the consultant should take to address the issue?
+
+A.Adjust the project scope to accommodate the new requirements and continue with original project schedule
+
+B.Adjust the dates in the project plan to account for the additional requirements and communicate the new timeline.
+
+C.Document the requirements gap and communicate development options to the project team
+
+D.Add development resources to the project team to build out the additional requirements
+ans: b
+109. A customer is planning a Service Cloud implementation. The customer's current database has the following number of records: 10 million cases, 1 million accounts, 3 million contacts. When planning to migrate this data into Salesforce, what implications should be considered? Choose 2 answers.
+
+A.Related lists on the case object may be slow to populate
+
+B.Salesforce reporting speed may be affected
+
+C.Results may be slow when searching for records
+
+D.The Salesforce or may be slow during the data migration
+ans: b,c
+110. A company has a requirement to keep all emails behind their firewall, they have 200 agents. What should they use?
+
+A.Web to Case
+
+B.On Demand Email to Case
+
+C.Community
+
+D.Email to Case
+ans: d
+111. UC's service center needs to provide support for a new product line. The product manager would like to be notified whenever a customer reports a new defect. Which solution should a consultant recommend to meet this requirement?
+
+A.Use Chatter case feed and case teams to monitor cases
+
+B.Use an assignment rule to assign new cases to the product manager
+
+C.Use an escalation rule to move cases into the product manager queue
+
+D.Use a workflow rule to send an email to the product manager
+ans: d
+112. UC is developing its strategy for social customer service. It would like to build a business case to fund a larger investment in social media and have a dedicated social media support team. The company's requirements include the ability to: Monitor Facebook fan page for new posts from customers. Link new posts to an existing customer record. Respond to posts from the existing Service Cloud console. What should UC do immediately to begin providing social customer service?
+
+A.Install Salesforce for Facebook and Twitter
+
+B.Integrate Facebook to its existing customer portal
+
+C.Enable Salesforce social profiles on contacts
+
+D.Create a Force.com app for Facebook monitoring
+ans: c
+113. What solution should a consultant recommend while designing a plan to decrease a company's cost per call? (Choose 2)
+
+A.Bypass entitlement verification
+
+B.Increase the Call–to–Order ratio
+
+C.Use integrated voice response
+
+D.Use suggested Knowledge articles
+ans: c,d
+114. A case has not been closed even after 30 days, but those cases can be closed in 7 days. What should the consultant do to overcome this? choose 2 options
+
+A.Use auto response rule to send an email...
+
+B.Supervisors to investigate those cases...
+
+C.Identify those cases and assign to the closure team...
+
+D.Use escalation rule to send an email...
+ans: b,c
+115. UC would like for articles to be suggested to agents based on information they are typing into the case. What solution should a consultant recommend?
+
+A.Enable the Knowledge sidebar setting in the case support settings
+
+B.Create a Service Cloud console and enable the Knowledge sidebar on the case page layout
+
+C.Enable the Knowledge sidebar related list on the case page layout
+
+D.Create a Visualforce page called Knowledge sidebar on the case page layout
+ans: a
+116. Which solution can be used to improve call deflection? Choose 3
+
+A.Community forum
+
+B.Case routing
+
+C.Knowledge base
+
+D.Assignment rules
+
+E.Web chat
+ans: c,d,e
+117. Universal Containers requires that users have the ability to view specific cases, as determined by the product type field on the case. An email should be sent to the users when a case to which they have access is created or closed.What should a consultant recommend to meet these requirements? (Choose 2)
+
+A.Case teams
+
+B.Auto–response rules
+
+C.Escalation rules
+
+D.Workflow rules
+ans: a,d
+118. A contact center manager wants to measure improvements to operations after the implementation of a new workforce management system. Which metric can be used to assess the success of the new workforce management system? Choose 2 answers.
+
+A.Agent utilization
+
+B.Schedule adherence
+
+C.Quality monitoring score
+
+D.Number of calls offered
+ans: a,b
+
+119. UC has determined that case list views are slow to load because of the large number of cases in the system. Which action will improve the performance of the list views? Choose 2 answers
+
+A.Remove filter criteria from the views
+
+B.Restrict visibility of the views
+
+C.Reduce the number of fields displayed
+
+D.Filter the views by case owner
+
+ans: c,d
+
+120. Universal Electric initiates cases based on electronic transmissions from power units. The case management process is as follows: A work order is submitted to a field service team to perform a technical review. After the technical review, an agent needs to contact the customer to review the activities. Cases can only be closed after the customer review has been completed. UE needs to determine whether the work orders and customer contacts should be stored as child cases or on a related custom object. What should the consultant consider to meet these requirements? Choose 3 answers.
+
+A.Visibility and access to the work order records
+
+B.Case closure rules on the original case
+
+C.Work order and customer contact escalation requirements
+
+D.Account team relationship to the primary contact
+
+E.Total number of account and contact records in the database
+ans: a,b,c
+
+121. UC wants to use the Service Cloud console and Computer Telephony Integration (CTI) with its contact center infrastructure. The telephony vendor has verified that its current infrastructure supports integration with Salesforce. What must be taken into consideration to meet this requirement?
+
+A.The number of intended Service Cloud console apps will not exceed the CTI adapter limits
+
+B.The CTI adapter must be developed using the CTI Toolkit version 3.0 or higher or Open CTI
+
+C.The CTI adapter requires the Service Cloud console highlights panel for Softphone control
+
+D.The CTI adapter supports the Service Cloud console push notifications for field or record changes
+ans: b
+122. Universal Containers needs to set up a customer portal to provide customers with a self–service option for support.Which capability can Universal Containers provide its customers via the customer portal? (Choose 3)
+
+A.Allows customers to customize their user interface
+
+B.Allows customers to search documents in Contact
+
+C.Allows customers to follow Chatter feeds
+
+D.Allows customers to search a knowledge base
+
+E.Allows customers to submit ideas and answers
+ans: b,d,e
+123. A team of publishers has created and published articles in Salesforce Knowledge. The manager of the help desk wants to verify that the articles are useful to agents.Which reports can the help desk manager use to determine the quality of the articles? (Choose 2)
+
+A.Report on agent ratings on articles
+
+B.Report on the articles attached in cases.
+
+C.Report on agent feedback on articles
+
+D.Report on articles followed in Chatter.
+ans: a,b
+124. The UC support center management team would like to leverage Salesforce functionality to improve collaboration on cases. What should a consultant recommend to meet this requirement? Choose 2 answers.
+
+A.Create case teams and introduce swarming to resolve cases
+
+B.Enable and use Chatter feed tracking in the case object
+
+C.Create escalation rules to re–assign cases after SLAs have expired
+
+D.Enable the Service Cloud console and Knowledge sidebar for agents
+ans: a,b
+125. To manage the publishing lifecycle for articles in Salesforce Knowledge, the contact center director wants to provide article managers the various publishing capabilities.What configuration should be recommended to meet this objective?
+
+A.Assign article managers to publication teams and specific publication states to each team
+
+B.Assign article managers to public groups and specific publication states to each group
+
+C.Assign article managers to publication teams and specific article actions to each team
+
+D.Assign article managers to public groups and specific article actions to each group
+ans: d
+126. When planning the migration of an existing knowledge base into Salesforce Knowledge, what factors should be considered in selecting which articles to migrate?
+
+A.Original creation date and total number of article views
+
+B.Last modified date and frequent search terms
+
+C.Original creation date and average rating of articles
+
+D.Last modified date and number of recent article views
+ans: b,c
+127. UC is implementing the Service Cloud console. Which capability of the Service Cloud console can the company use to improve its contact center performance? Choose 2 answers.
+
+A.Indicates when records and lists are changed by others
+
+B.Displays records and their related items as tabs on one screen
+
+C.Allows Chatter Messenger to be used between agents
+
+D.Is available for users in the partner portal
+ans: b,c
+128. UC is configuring the Service Cloud console to provide a unified desktop for agents. Which solution would require custom application development? Choose 3 answers.
+
+A.Displaying basic data from a legacy enterprise resource planning system
+
+B.Creating a button to send an email response and re–queue the case
+
+C.Displaying a technical diagram of a registered product related to the case
+
+D.Displaying real time visual indicators when lists and records are changed
+
+E.Providing a Knowledge sidebar to suggest a solution related to the case
+ans: a,c,d
+129. Customers can contact universal appliances to report problems with their appliances within 30days of delivery. Support agents need quick–view–only access to an external database that stores over 100000 known product bugs logged by the product engineers.Which solution should a consultant design to meet this requirement? Choose2
+
+A.Use Bulk API to load the product bug data into salesforce.
+
+B.Create a custom product bug object and import the data into salesforce
+
+C.Display product bug data in salesforce via visual force page.
+
+D.Use SOAP API to integrate the external database with salesforce.
+ans: c,d
+130. Universal Containers is ready to launch a customer portal to its targeted customers. The company's executives want to use appropriate metrics to efficiently measure user adoption.Which metrics should be measured? (Choose 2)
+A. Number of calls deflected using IVR
+B. Number of emails compared to portal cases
+C. Number of cases created in the portal
+D. Number of portal logins per day
+ans: c,d
+131. What metric should a contact center manager consider to measure adoption of Salesforce Knowledge? Choose 2 answers.
+A. Number of cases escalated by agent
+B. Number of articles created by agent
+C. Number of solutions created by agent
+D. Number of articles attached to a case
+ans: b,d
+132. Using the standard case management functionality, what can be mailed to the customer as a PDF?
+A. Articles attached to the side bar
+B. Knowledge articles attached to the case
+C. Products and assets associated to the case
+D. Contract details related to the entitlement
+ans: b
+133. Universal containers have a service level agreement (SLA) with customers that requires an agent to take ownership of incoming cases within two hours of case creation. Which solution would help universal containers meet its SLA?
+A. Create a workflow rule to send and email to support managers when a case is created and assigned to queues.
+B. Assign case to queues and use escalations rules to escalate cases that have NOT been accepted by an agent
+C. Create a workflow rule to assign a task to all a members of a queues if a case has NOT been accepted by an agent
+D. Use case auto-response rules to send an email to support managers within one hour of case creation.
+ans: b
+134. Universal Containers will be launching a telesales contact center.
+What should be considered in the design?
+A. Integration with Field service teams and apps
+B. strategies to maximize call deflection
+C. Performance for high volume of interactions
+D. Integration with Lead Generation team and apps
+ans: c,d
+135. Universal Containers is developing a business continuity plan for their contact centers.
+What should the company consider?
+Choose 2 answers
+A. Recovery point objective
+B. Criteria for plan activation
+C. Site consolidation
+D. Opens access to systems
+ans: a,b
+136. Universal Containers would like to provide their contact center agents with a map image of their customers’ location based on the Shipping Address of their Account Record.
+What should a consultant recommend as part of the solution?
+A. An outbound message to a middleware platform to provide map details
+B. A mashup integration on the Account page to a third-party mapping service
+C. A Web Service call-out that retrieves map details from the backend system
+D. A custom tab of type URL that displays a map image of customer location
+ans: d
+137. Universal Containers has four internal divisions that use Salesforce Knowledge. Compliance requirements indicate each division should have access to its own articles when performing a search.
+What solution should a consultant recommend to meet this requirement?
+A. Create a sharing rule for each division to provide access based on criteria of the article
+B. Create a sharing rule for each division to provide access using the role hierarchy
+C. Create a single data category group for each division and provide access using the role hierarchy
+D. Create separate data category groups for each division and assign the category to a division profile
+ans: c
+138. Universal Containers customer support management wants to provide proactive communications are likely to provide low customer satisfaction (CSAT) scores
+What customer-related metric should the customer support management analyze?
+Choose 2 answers
+A. Time spent by account year-to-date
+B. New cases opened by account channel
+C. Escalated cases by amount month-to-date
+D. High-priority cases opened by account month-to-date
+ans: c,d
+139. Universal Containers is developing its strategy for supporting their customers on social media sites. The company's requirements include the ability to:
+- Monitor Facebook fan page for new posts and comments from customer
+- Link new post and comments to an existing customer record
+- Respond to posts from the existing Salesforce Console for Service
+- Create and link social personas to contacts
+What should a consultant recommend to meet these requirements?
+A. Create a Force.com app for Facebook monitoring
+B. Enable Social Customer Service
+C. Integrate Facebook to its existing Customer Community
+D. Enable Salesforce social profile on contacts
+ans: d
+140. Universal Containers will be launching a telesales contact center.
+What should be considered in the design?
+A. Integration with Field service teams and apps
+B. strategies to maximize call deflection
+C. Performance for high volume of interactions     
+D. Integration with Lead Generation team and apps
+ans: c,d
+141. Universal Containers is developing a business continuity plan for their contact centers.
+What should the company consider?
+Choose 2 answers
+A. Recovery point objective
+B. Criteria for plan activation
+C. Site consolidation
+D. Opens access to systems
+ans: a,b
+142. Universal Containers support manager wants to share product-specific information with their customer Communities
+What should a consultant recommend to meet this requirement?
+Choose 3 answers
+A. Assign Article types to the Community
+B. Enable Public Solutions
+C. Enable Article deliveries
+D. Publish Articles to external channels
+E. Configure Content Library permission
+ans: a,b,d
+143. A consultant is working on a Service Cloud implementation with a fixed budget and timeline. The analysis phase of the project has just been completed. Additional requirements were discovered that will result in the project exceeding timeline and budget constraints. What is the first step the consultant should take to address the issue?
+A. Adjust the dates in the project plan to account for the additional requirements and communicate the new timeline.
+B. Add development resources to the project team to build out the additional requirements.
+C. Adjust the project scope to accommodate new requirements and continue with the original project schedule
+D. Document the requirements gap and communicate development options to the project team
+ans: d
+
+144. A contact center manager needs to restrict who can create an FAQ Article Type within Knowledge.What should a consultant recommend to accomplish this requirement? Choose 2 answers.
+A. Set the organization wide default to private and create sharing rules for the FAQ article type.
+B. Enable the Manage Articles permission for the publisher profile and assign it to users.
+C. Hide the Article Management tab for users who should have read-only access to articles.
+D. Create a publisher profile that includes create access on the FAQ article type.
+ans: b
+
+145. A new customer to Salesforce is considering implementing a customer portal. The customer has millions of users and plans to evaluate a high-volume customer portal/Community.What is a key consideration when configuring a customer portal?
+A. Users cannot own records
+B. Users can download and view content
+C. Users are not associated with a rule in the hierarchy
+D. Users can be part of a case team
+ans: c

@@ -236,7 +236,7 @@ function getQuestionsFromSource() {
 	// if (fileName.indexOf("service") == -1) {
 	// 	src = 'docs/' + fileName;
 	// } else {
-	var	src = "https://dl.dropboxusercontent.com/s/hkakuqy6py43l55/" + fileName + "?dl=0";
+	var	src = "https://dl.dropboxusercontent.com/s/" + fileName;
 	// }
   		 $.ajax(src,
   		 {
@@ -260,6 +260,7 @@ function startExam() {
 	showAnswers = false;
 	$("#jumpToQuestionInput").attr("placeholder","1 - " + questions.length);
 	$("#menuSection").hide();
+	$("#correctAnswersSection").hide();
 	$("#markQuestionButton").show();
 	$("#questionsSection").show();
 	$("#bottomBar").show();

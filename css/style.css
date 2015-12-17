@@ -131,7 +131,7 @@ input {
 
 .page {
 	padding: 10px;
-	overflow: scroll;
+	overflow: auto;
 	-webkit-overflow-scrolling: touch;
 }
 
